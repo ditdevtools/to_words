@@ -12,7 +12,6 @@ module ToWords
     end
 
     def higher_than_hundred(hundred, remaining, counter)
-      byebug
       century = UNDER_HUNDRED[hundred]
       if remaining != 0
         return century + " سەد " + UNDER_HUNDRED[remaining] if counter != 0
