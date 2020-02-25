@@ -14,8 +14,8 @@ module ToWords
     def higher_than_hundred(hundred, remaining, counter)
       century = UNDER_HUNDRED[hundred]
       if remaining != 0
-        return (century == "یەک") ? "" : " سەد " + UNDER_HUNDRED[remaining] if counter != 0
-        return (century == "یەک") ? "" : " سەد و " + UNDER_HUNDRED[remaining]
+        return century + " سەد " + UNDER_HUNDRED[remaining] if counter != 0
+        return century + " سەد و " + UNDER_HUNDRED[remaining]
       end
       return century + " سەد " if remaining == 0
     end
