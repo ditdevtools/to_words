@@ -3,12 +3,12 @@ module ToWords
   module Divisions
     DIVISIONS = [
       "",
-      "Thousand",
-      "Million",
-      "Billion",
-      "Trillion",
-      "Quadrillion",
-      "Quintrillion"
+      "هەزار",
+      "ملیۆن",
+      "ملیار",
+      "ترلیۆن",
+      "کوادرلیۆن",
+      "کوینترلیۆن"
     ].freeze
   end
 end
