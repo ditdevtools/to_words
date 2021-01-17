@@ -21,7 +21,7 @@ module ToWords
       result << temp_result + " " + DIVISIONS[counter] + " " if temp_result
       counter += 1
     end
-    sign + result.reverse.join(", ").rstrip
+    sign + result.reverse.join("و ").rstrip
   end
 end
 
