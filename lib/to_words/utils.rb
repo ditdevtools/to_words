@@ -17,7 +17,7 @@ module ToWords
         return century + " سەد " + UNDER_HUNDRED[remaining] if counter != 0
         return century + " سەد و " + UNDER_HUNDRED[remaining]
       end
-      return century + " سەد " if remaining == 0
+      return century + " سەد و " if remaining == 0
     end
 
     def check_sign(num)
